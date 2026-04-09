@@ -6,3 +6,4 @@ router.get("/:id",    flights.getFlightById);
 router.post("/",      flights.createFlight);   // seed flights
 
 module.exports = router;
+
