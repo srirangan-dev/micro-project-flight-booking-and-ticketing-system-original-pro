@@ -11,6 +11,7 @@ export const airports = [
   { code: "GOI", city: "Goa", name: "Goa International" },
 ];
 
+
 export const airlines = [
   { code: "AI", name: "Air India", logo: "✈" },
   { code: "6E", name: "IndiGo", logo: "✈" },
