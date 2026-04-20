@@ -4,6 +4,8 @@ import { api } from "../api";
 const BookingContext = createContext(null);
 
 const reshapeBooking = (row) => ({
+
+  
   bookingId:   row.booking_id,
   status:      row.status || "Confirmed",
   bookedAt:    row.booked_at || new Date().toISOString(),
